@@ -2,6 +2,19 @@
 
 This is a Chrome-Dino-style game for an Arduino Uno. The OLED shows the game, the TM1637 display shows the score, the rotary encoder button makes the Dino jump, and the buzzer produces game sounds.
 
+## 🖼️ Circuit & Components Overview
+
+Below is the complete wiring diagram setup for the project:
+
+![Circuit Diagram](circuit-diagram.png)
+
+### Key Hardware Used
+- **Arduino Uno R3**
+- **128x64 OLED Display (I2C)**
+- **TM1637 4-Digit Segment Display**
+- **KY-040 Rotary Encoder**
+- **Piezo Buzzer**
+
 ## What You Need
 
 - Arduino Uno
@@ -241,3 +254,5 @@ Close Serial Monitor and any other program using the COM port. Select the correc
 ### The OLED is blank
 
 Turn off the Arduino, recheck SDA, SCL, VCC, and GND wiring, then power it on again.
+
+
